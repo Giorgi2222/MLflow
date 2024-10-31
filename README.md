@@ -22,9 +22,40 @@ Follow the instructions below to set up the project on your local machine.
 4. Once the virtual environment is activated, install the necessary dependencies:
    ```bash
    pip install -r requirements.txt
-5. Launch Jupyter notebook and open and follow tracking_quickstart.ipynb
-   ```bash
-   jupyter notebook
+
+### Option 1: Launch Jupyter Notebook
+
+To launch the Jupyter notebook and run `tracking_quickstart.ipynb`, use the following command:
+
+```bash
+jupyter notebook
+```
+
+- Open the `tracking_quickstart.ipynb` file in your browser.
+- Run the cells to follow along with the model training and saving process.
+
+---
+
+### Option 2: Convert `.ipynb` to `.py` and Run as Python Script
+
+If you prefer, you can convert the Jupyter notebook file (`tracking_quickstart.ipynb`) to a Python script and run it directly:
+
+1. **Convert the notebook to a Python script** using the following command:
+
+    ```bash
+    ```
+
+    This will generate a `tracking_quickstart.py` file in the same directory.
+
+2. **Run the Python script**:
+
+    ```bash
+    python tracking_quickstart.py
+    ```
+
+This method allows you to execute the code directly without the need for the notebook interface.
+
+---
 ### Deploying the model
 #### Once you save the model on MLflow tracking server and download it, you can deploy it.
    ```bash
