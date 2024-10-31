@@ -43,6 +43,7 @@ If you prefer, you can convert the Jupyter notebook file (`tracking_quickstart.i
 1. **Convert the notebook to a Python script** using the following command:
 
     ```bash
+    jupyter nbconvert --to script tracking_quickstart.ipynb
     ```
 
     This will generate a `tracking_quickstart.py` file in the same directory.
